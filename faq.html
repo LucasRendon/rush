@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="header-area">
+      <div class="header">
+        
+        <div class="logo">
+          <a href="index.html"><img src="images/rrlogo.png" alt="logo rush royale" style="width: 120px;"></a>
+        </div>        
+        <ul>
+          <li><a href="index.html">Home</a></li>  
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>          
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>        
+      <div class="awesome-area">  
+        <div class="awesome-container"> <!-- TIPS IMAGES & INFO START HERE-->
+
+          <div class="title">
+            FAQ
+          </div>
+          <img class="boss-images" src="images/tips.png" alt="rush royale faq image">
+          <div class="title-text">
+            - I will refer to buff units such as Knight Statue, Banner, Grindstone, Hex, etc... as "buff buildings" in this guide.</br></br>
+            - Being "stuck" means to have a full board/field and no merge options.</br></br>
+            
+          </div>
+
+          <div class="signup-text1">
+            Are there any promo codes I can use?
+          </div>
+          <img class="boss-images" src="images/gentips.png" alt="general tips image">
+          <div class="title-text">
+            - YAKC-WV38-IMFN</br>
+            - YAKD-UF5U-N3AK</br>
+            - Y9N2-HL2B-3LXX</br></br>            
+          </div>
+          
+          
+
+          <!-- <a href="https://www.google.com" class="button top">Boss list</a> -->          
+
+          <div class="title">
+            Boss wave list:
+          </div> 
+          <div class="title-text">
+            You will notice a pattern here, after wave 60 the bosses appear every two waves in this order: Tamer - Gorgon - Bedlam - Warlock - Tribunal - Puppeteer. In between each boss we get either a Bannerlord or Vortex(B/V). I have presented up to wave 90 here but you can easily predict which boss is next if you follow the pattern.
+          </div>
+          <div class="boss-waves-area"> <!-- BOSS WAVE LIST STARTS HERE-->
+            <div class="boss-waves">          
+            <li>Wave 10: Tamer</li>
+            <li>Wave 20: Gorgon</li>
+            <li>Wave 30: Bedlam</li>
+            <li>Wave 40: Warlock</li>
+            <li>Wave 50: Tribunal</li>
+            <li>Wave 60: Puppeteer</li>          
+          </div>
+          <div class="boss-waves">
+            <li>Wave 61: B/V</li>
+            <li>Wave 62: Tamer</li>
+            <li>Wave 63: B/V</li>
+            <li>Wave 64: Gorgon</li>
+            <li>Wave 65: B/V</li>
+            <li>Wave 66: Bedlam</li>
+            <li>Wave 67: B/V</li>
+            <li>Wave 68: Warlock</li>
+            <li>Wave 69: B/V</li>
+            <li>Wave 70: Tribunal</li>
+          </div>
+          <div class="boss-waves">
+            <li>Wave 71: B/V</li>
+            <li>Wave 72: Puppeteer</li>
+            <li>Wave 73: B/V</li>
+            <li>Wave 74: Tamer</li>
+            <li>Wave 75: B/V</li>
+            <li>Wave 76: Gorgon</li>
+            <li>Wave 77: B/V</li>
+            <li>Wave 78: Bedlam</li>
+            <li>Wave 79: B/V</li>
+            <li>Wave 80: Warlock</li>
+          </div>
+          <div class="boss-waves">
+            <li>Wave 81: B/V</li>
+            <li>Wave 82: Tribunal</li>
+            <li>Wave 83: B/V</li>
+            <li>Wave 84: Puppeteer</li>
+            <li>Wave 85: B/V</li>
+            <li>Wave 86: Tamer</li>
+            <li>Wave 87: B/V</li>
+            <li>Wave 88: Gorgon</li>
+            <li>Wave 89: B/V</li>
+            <li>Wave 90: Bedlam</li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      //Get the button:
+    mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    } 
+    </script>
+</body>
+</html>
