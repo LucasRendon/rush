@@ -1,3 +1,3 @@
-# Canjes-Lucas
-A site in spanish where Hondurans can upload and trade(or sell) things they do not need.
-Today is 27.Nov.2021
+# Rush
+A beginners F2P guide to playing Rush Royale in Co-op mode.
+Today is 2022.Jan.18
