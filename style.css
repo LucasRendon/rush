@@ -41,9 +41,15 @@ body {
   }
 
   .unit-icons { /* ************************************ */
-    margin-top: 2px;
+    /*margin-top: 2px;*/
     /*margin-bottom: 2px;*/
     max-width: 70px;
+  }
+
+  .screenshots { /* ************************************ */
+    margin-top: 2px;
+    margin-bottom: 30px;
+    max-width: 270px;
   }
 
   .top-links {
@@ -244,7 +250,7 @@ body {
     display: flex;
     flex-direction: row;  
     margin-right: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     flex-wrap: wrap;
     /*border: 1px solid white;*/
     gap: 10px;
@@ -323,6 +329,11 @@ body {
   
   .signup-text1 {
       font-size: 24px;
+  }
+
+  .faq-text {
+    font-size: 24px;
+    color: yellow;
   }
   
   .signup-text2 {
