@@ -144,11 +144,10 @@ body {
 }
   
   .title {
-      /* Rush Royale co-op guide */
+      /* Main titles on pages */
       display: flex;
       font-size: 39px;
-      font-weight: 900;
-      /*color: #F9FAF8;*/
+      font-weight: 900;      
       color: yellow;
       background: #1f2937;
       flex-wrap: wrap;
@@ -156,8 +155,7 @@ body {
       /*overflow: hidden;*/
   }
   
-  .title-text {
-      /* An unofficial guide */
+  .title-text {      
       font-size: 18px;
       color: #e5e7eb;
       margin: 5px 0;
