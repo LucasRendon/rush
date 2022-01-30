@@ -1,3 +1,6 @@
-# Rush
-A beginners F2P guide to playing Rush Royale in Co-op mode. https://lucasrendon.github.io/rush/
+# rush-royale
+
+Rush Royale F2P Co-op deck suggestions and mini-guide: 
+https://lucasrendon.github.io/rush/ 
+
 Today is 2022.Jan.18
