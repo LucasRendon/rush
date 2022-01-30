@@ -148,7 +148,8 @@ body {
       display: flex;
       font-size: 39px;
       font-weight: 900;
-      color: #F9FAF8;
+      /*color: #F9FAF8;*/
+      color: yellow;
       background: #1f2937;
       flex-wrap: wrap;
       margin-top: 60px;
